@@ -1,0 +1,105 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\colin\\source\\repos\\MealPlanProjectCGaffney\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E47BD0E7-F19C-40E0-A547-B3E5F509B01A}|MealPlanProjectCGaffney.csproj|c:\\users\\colin\\source\\repos\\mealplanprojectcgaffney\\pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E47BD0E7-F19C-40E0-A547-B3E5F509B01A}|MealPlanProjectCGaffney.csproj|solutionrelative:pages\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47BD0E7-F19C-40E0-A547-B3E5F509B01A}|MealPlanProjectCGaffney.csproj|c:\\users\\colin\\source\\repos\\mealplanprojectcgaffney\\pages\\mealplan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E47BD0E7-F19C-40E0-A547-B3E5F509B01A}|MealPlanProjectCGaffney.csproj|solutionrelative:pages\\mealplan.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47BD0E7-F19C-40E0-A547-B3E5F509B01A}|MealPlanProjectCGaffney.csproj|c:\\users\\colin\\source\\repos\\mealplanprojectcgaffney\\pages\\mealplan.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E47BD0E7-F19C-40E0-A547-B3E5F509B01A}|MealPlanProjectCGaffney.csproj|solutionrelative:pages\\mealplan.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E47BD0E7-F19C-40E0-A547-B3E5F509B01A}|MealPlanProjectCGaffney.csproj|c:\\users\\colin\\source\\repos\\mealplanprojectcgaffney\\pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E47BD0E7-F19C-40E0-A547-B3E5F509B01A}|MealPlanProjectCGaffney.csproj|solutionrelative:pages\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 228,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{74946827-37a0-11d2-a273-00c04f8ef4ff}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c64b9c2-e352-428e-a56d-0ace190b99a6}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MealPlan.cshtml.cs",
+              "DocumentMoniker": "C:\\Users\\colin\\source\\repos\\MealPlanProjectCGaffney\\Pages\\MealPlan.cshtml.cs",
+              "RelativeDocumentMoniker": "Pages\\MealPlan.cshtml.cs",
+              "ToolTip": "C:\\Users\\colin\\source\\repos\\MealPlanProjectCGaffney\\Pages\\MealPlan.cshtml.cs",
+              "RelativeToolTip": "Pages\\MealPlan.cshtml.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-22T19:38:17.834Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "MealPlan.cshtml",
+              "DocumentMoniker": "C:\\Users\\colin\\source\\repos\\MealPlanProjectCGaffney\\Pages\\MealPlan.cshtml",
+              "RelativeDocumentMoniker": "Pages\\MealPlan.cshtml",
+              "ToolTip": "C:\\Users\\colin\\source\\repos\\MealPlanProjectCGaffney\\Pages\\MealPlan.cshtml",
+              "RelativeToolTip": "Pages\\MealPlan.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T19:37:52.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\colin\\source\\repos\\MealPlanProjectCGaffney\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\colin\\source\\repos\\MealPlanProjectCGaffney\\Pages\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Pages\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACYAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T17:39:11.898Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\colin\\source\\repos\\MealPlanProjectCGaffney\\Pages\\Index.cshtml",
+              "RelativeDocumentMoniker": "Pages\\Index.cshtml",
+              "ToolTip": "C:\\Users\\colin\\source\\repos\\MealPlanProjectCGaffney\\Pages\\Index.cshtml",
+              "RelativeToolTip": "Pages\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-22T16:33:28.625Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
