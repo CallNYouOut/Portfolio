@@ -1,6 +1,0 @@
-C:\Users\colin\source\repos\CGaffneyCPT206Lab3CL\bin\Debug\CGaffneyCPT206Lab3CL.dll
-C:\Users\colin\source\repos\CGaffneyCPT206Lab3CL\bin\Debug\CGaffneyCPT206Lab3CL.pdb
-C:\Users\colin\source\repos\CGaffneyCPT206Lab3CL\obj\Debug\CGaffneyCPT206Lab3CL.csproj.AssemblyReference.cache
-C:\Users\colin\source\repos\CGaffneyCPT206Lab3CL\obj\Debug\CGaffneyCPT206Lab3CL.csproj.CoreCompileInputs.cache
-C:\Users\colin\source\repos\CGaffneyCPT206Lab3CL\obj\Debug\CGaffneyCPT206Lab3CL.dll
-C:\Users\colin\source\repos\CGaffneyCPT206Lab3CL\obj\Debug\CGaffneyCPT206Lab3CL.pdb

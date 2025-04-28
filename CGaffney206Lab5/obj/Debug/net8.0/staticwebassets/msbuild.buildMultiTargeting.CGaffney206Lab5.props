@@ -1,3 +1,0 @@
-﻿<Project>
-  <Import Project="..\build\CGaffney206Lab5.props" />
-</Project>
