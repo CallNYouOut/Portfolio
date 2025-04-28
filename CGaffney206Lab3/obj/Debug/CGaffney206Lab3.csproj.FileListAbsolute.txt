@@ -1,0 +1,14 @@
+C:\Users\colin\source\repos\CGaffney206Lab3\bin\Debug\StatesLocation.mdf
+C:\Users\colin\source\repos\CGaffney206Lab3\bin\Debug\StatesLocation_log.ldf
+C:\Users\colin\source\repos\CGaffney206Lab3\bin\Debug\CGaffney206Lab3.exe.config
+C:\Users\colin\source\repos\CGaffney206Lab3\bin\Debug\CGaffney206Lab3.exe
+C:\Users\colin\source\repos\CGaffney206Lab3\bin\Debug\CGaffney206Lab3.pdb
+C:\Users\colin\source\repos\CGaffney206Lab3\obj\Debug\CGaffney206Lab3.csproj.AssemblyReference.cache
+C:\Users\colin\source\repos\CGaffney206Lab3\obj\Debug\CGaffney206Lab3.frmMain.resources
+C:\Users\colin\source\repos\CGaffney206Lab3\obj\Debug\CGaffney206Lab3.frmDataMenu.resources
+C:\Users\colin\source\repos\CGaffney206Lab3\obj\Debug\CGaffney206Lab3.Properties.Resources.resources
+C:\Users\colin\source\repos\CGaffney206Lab3\obj\Debug\CGaffney206Lab3.frmStateDetails.resources
+C:\Users\colin\source\repos\CGaffney206Lab3\obj\Debug\CGaffney206Lab3.csproj.GenerateResource.cache
+C:\Users\colin\source\repos\CGaffney206Lab3\obj\Debug\CGaffney206Lab3.csproj.CoreCompileInputs.cache
+C:\Users\colin\source\repos\CGaffney206Lab3\obj\Debug\CGaffney206Lab3.exe
+C:\Users\colin\source\repos\CGaffney206Lab3\obj\Debug\CGaffney206Lab3.pdb
