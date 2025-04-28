@@ -1,0 +1,80 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="BaseballDB" Class="DataClasses1DataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=|DataDirectory|\BaseballDB.mdf;Integrated Security=True;Connect Timeout=30" SettingsObjectName="group_project_i_brownie_bandits.Properties.Settings" SettingsPropertyName="BaseballDBConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.Allstars" Member="Allstars">
+    <Type Name="Allstar">
+      <Column Name="playerID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="yearID" Type="System.Int16" DbType="SmallInt NOT NULL" CanBeNull="false" />
+      <Column Name="gameNum" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="gameID" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="teamID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="lgID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="GP" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="startingPos" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SeriesPost" Member="SeriesPosts">
+    <Type Name="SeriesPost">
+      <Column Name="yearID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="round" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="teamIDwinner" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="lgIDwinner" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="teamIDloser" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="lgIDloser" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="wins" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="losses" Type="System.Byte" DbType="TinyInt NOT NULL" CanBeNull="false" />
+      <Column Name="ties" Type="System.Boolean" DbType="Bit NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Teams" Member="Baseball_Teams">
+    <Type Name="Baseball_Teams">
+      <Column Name="yearID" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="lgID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="teamID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="franchID" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="divID" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="Rank" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="G" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="Ghome" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="W" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="L" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DivWin" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="WCWin" Type="System.String" DbType="NVarChar(1)" CanBeNull="true" />
+      <Column Name="LgWin" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="WSWin" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="R" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="AB" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="H" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="[_2B]" Member="_2B" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="[_3B]" Member="_3B" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HR" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BB" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SO" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="SB" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="CS" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="HBP" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="SF" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="RA" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ER" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="ERA" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="CG" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SHO" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SV" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="IPouts" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HA" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="HRA" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="BBA" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="SOA" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="E" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="DP" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="FP" Type="System.Double" DbType="Float NOT NULL" CanBeNull="false" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="park" Type="System.String" DbType="NVarChar(MAX)" CanBeNull="true" />
+      <Column Name="attendance" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="BPF" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="PPF" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="teamIDBR" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="teamIDlahman45" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="teamIDretro" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>
