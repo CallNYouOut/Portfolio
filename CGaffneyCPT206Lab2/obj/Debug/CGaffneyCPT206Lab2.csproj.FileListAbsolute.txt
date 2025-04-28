@@ -1,0 +1,13 @@
+C:\Users\colin\source\repos\CGaffneyCPT206Lab2\bin\Debug\CityDB.mdf
+C:\Users\colin\source\repos\CGaffneyCPT206Lab2\bin\Debug\CityDB_log.ldf
+C:\Users\colin\source\repos\CGaffneyCPT206Lab2\obj\Debug\CGaffneyCPT206Lab2.csproj.AssemblyReference.cache
+C:\Users\colin\source\repos\CGaffneyCPT206Lab2\obj\Debug\CGaffneyCPT206Lab2.Form1.resources
+C:\Users\colin\source\repos\CGaffneyCPT206Lab2\obj\Debug\CGaffneyCPT206Lab2.Properties.Resources.resources
+C:\Users\colin\source\repos\CGaffneyCPT206Lab2\obj\Debug\CGaffneyCPT206Lab2.csproj.GenerateResource.cache
+C:\Users\colin\source\repos\CGaffneyCPT206Lab2\obj\Debug\CGaffneyCPT206Lab2.csproj.CoreCompileInputs.cache
+C:\Users\colin\source\repos\CGaffneyCPT206Lab2\obj\Debug\CGaffneyCPT206Lab2.exe
+C:\Users\colin\source\repos\CGaffneyCPT206Lab2\obj\Debug\CGaffneyCPT206Lab2.pdb
+C:\Users\colin\source\repos\CGaffneyCPT206Lab2\bin\Debug\CGaffneyCPT206Lab2.exe.config
+C:\Users\colin\source\repos\CGaffneyCPT206Lab2\bin\Debug\CGaffneyCPT206Lab2.exe
+C:\Users\colin\source\repos\CGaffneyCPT206Lab2\bin\Debug\CGaffneyCPT206Lab2.pdb
+C:\Users\colin\source\repos\CGaffneyCPT206Lab2\bin\Debug\CityDB.accdb

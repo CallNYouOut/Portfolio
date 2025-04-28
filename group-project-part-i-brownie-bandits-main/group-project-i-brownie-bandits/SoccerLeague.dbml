@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="SportsLeagues" Class="SoccerLeagueDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=COLIN-GOODPC\SQLEXPRESS;Initial Catalog=SportsLeagues;Integrated Security=True;Trust Server Certificate=True" SettingsObjectName="group_project_i_brownie_bandits.Properties.Settings" SettingsPropertyName="SportsLeaguesConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.SoccerGames" Member="SoccerGames">
+    <Type Name="SoccerGame">
+      <Column Name="game_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="competition_id" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="season" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="round" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="home_club_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="away_club_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="home_club_goals" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="away_club_goals" Type="System.Byte" DbType="TinyInt" CanBeNull="true" />
+      <Column Name="stadium" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="attendance" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="home_club_name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="away_club_name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="aggregate" Type="System.TimeSpan" DbType="Time" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SoccerPlayers" Member="SoccerPlayers">
+    <Type Name="SoccerPlayer">
+      <Column Name="player_id" Type="System.Int32" DbType="Int NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="first_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="last_name" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="name" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="last_season" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="current_club_id" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="player_code" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="country_of_citizenship" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="date_of_birth" Type="System.DateTime" DbType="DateTime2" CanBeNull="true" />
+      <Column Name="sub_position" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="position" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="foot" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+      <Column Name="height_in_cm" Type="System.Int32" DbType="Int" CanBeNull="true" />
+      <Column Name="current_club_name" Type="System.String" DbType="NVarChar(100)" CanBeNull="true" />
+      <Column Name="market_value_in_eur" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+      <Column Name="highest_market_value_in_eur" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.SoccerPlayersValuations" Member="SoccerPlayersValuations">
+    <Type Name="SoccerPlayersValuation">
+      <Column Name="player_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="date" Type="System.DateTime" DbType="Date NOT NULL" CanBeNull="false" />
+      <Column Name="market_value_in_eur" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="current_club_id" Type="System.Int32" DbType="Int NOT NULL" CanBeNull="false" />
+      <Column Name="player_club_domestic_competition_id" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+    </Type>
+  </Table>
+</Database>

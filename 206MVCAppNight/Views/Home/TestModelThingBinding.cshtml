@@ -1,0 +1,35 @@
+﻿@model TestModelThing
+@{
+    ViewData["Title"] = "Thing Binding";
+}
+<h1>@ViewData["Title"]</h1>
+
+<div>
+    Enter the values for your thing in the following form:
+
+</div>
+
+<form method="post" action="/home/TestModelThingBinding/?id=3">
+    <input name="id" value="" />
+    <input name="color" value="" />
+    <input name="name" value="" />
+    <input type="submit" />
+
+</form>
+
+@if(Model!=null)
+{
+    <h2>Submitted Thing</h2>
+    <hr />
+    <div>
+        <dl class="dl-horizontal">
+            <dt>Model Id</dt>
+            <dt>@Model.Id</dt>
+            <dt>Model Color</dt>
+            <dt>@Model.Color</dt>
+            <dt>Model Name</dt>
+            <dt>@Model.Name</dt>
+
+        </dl>
+    </div>
+}

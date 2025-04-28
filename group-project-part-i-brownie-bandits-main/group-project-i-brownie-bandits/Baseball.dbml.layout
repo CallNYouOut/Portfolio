@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 10.75" name="DataClasses1">
+  <DataContextMoniker Name="/DataClasses1DataContext" />
+  <nestedChildShapes>
+    <classShape Id="bd77f9e7-4bfe-47b8-86c0-a43b6b60861c" absoluteBounds="0.75, 0.5, 2, 2.3478011067708335">
+      <DataClassMoniker Name="/DataClasses1DataContext/Allstar" />
+      <nestedChildShapes>
+        <elementListCompartment Id="ac9b46e9-a4d6-4787-bd92-0c27db295476" absoluteBounds="0.76499999999999968, 0.96, 1.9700000000000002, 1.7878011067708335" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="3df9ab76-1ced-41ef-97c1-c6dbe824fe63" absoluteBounds="3, 0.5, 2, 2.5401025390625">
+      <DataClassMoniker Name="/DataClasses1DataContext/SeriesPost" />
+      <nestedChildShapes>
+        <elementListCompartment Id="764439df-a442-4811-aef5-4589fa0895d6" absoluteBounds="3.0149999999999997, 0.96, 1.9700000000000002, 1.9801025390625" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="c5ea90b5-8c13-4f62-b5e0-8fba510ed378" absoluteBounds="5.875, 0.5, 2, 10.0398583984375">
+      <DataClassMoniker Name="/DataClasses1DataContext/Baseball_Teams" />
+      <nestedChildShapes>
+        <elementListCompartment Id="80e2b7a0-47a3-490d-a4fd-fce3087d3f74" absoluteBounds="5.8900000000000006, 0.96, 1.9700000000000002, 9.4798583984375" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
